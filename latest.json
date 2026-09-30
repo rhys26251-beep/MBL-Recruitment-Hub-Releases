@@ -1,7 +1,7 @@
 {
-  "version": "1.1.4",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.4.zip.b64",
+  "version": "1.1.5",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.5.zip.b64",
   "encoding": "base64",
-  "sha256": "f885408d4631fa790a6c9f35fe675ab5f9160c15b362a3791155b08f2eabc00e",
-  "notes": "Add Candidate improvements: email is now optional, the induction selector is a full month calendar with forward navigation and official-session markers, and the compact sidebar calendar now rolls across the next six weeks so month-end dates stay visible. Also adds a 10 PM reminder listing local candidates that still need adding to the official MBL page."
+  "sha256": "d1d2fa7787668c43a2fc79776421678cd5be9ba571e974d6b870c389130b5d93",
+  "notes": "Nightly local-candidate reminder now cross-checks the official MBL list first. Exact phone/email matches are automatically linked to the official candidate, so the 10 PM prompt only shows local candidates that still appear to be genuinely missing."
 }
