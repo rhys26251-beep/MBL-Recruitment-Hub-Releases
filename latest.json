@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1_1_0.zip.b64",
+  "version": "1.1.1",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.1.zip.b64",
   "encoding": "base64",
-  "sha256": "1f675d4be8a7b3c21393cd6daf55c23b6fb81d1017084ed47667b0b451db5dac",
-  "notes": "GitHub automatic update channel enabled. Future Recruitment Hub versions can be detected and installed from inside the app."
+  "sha256": "93519a28653ddf3887951fee610d9404ece259409063883f4af040b01840a943",
+  "notes": "Automatic GitHub update channel bootstrap. Fixes installed-version detection and prepares one-click future updates."
 }
