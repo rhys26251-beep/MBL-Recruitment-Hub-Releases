@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.1.zip.b64",
+  "version": "1.1.2",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.2.zip.b64",
   "encoding": "base64",
-  "sha256": "93519a28653ddf3887951fee610d9404ece259409063883f4af040b01840a943",
-  "notes": "Automatic GitHub update channel bootstrap. Fixes installed-version detection and prepares one-click future updates."
+  "sha256": "95956f856ae82e82bdc822a6d908b18f5ce105f668152564c8cb4ff9e15d03ac",
+  "notes": "Fixes stuck Sync Pending items. Pending writes are now safe to retry without duplicating No Answer attempts, refresh automatically reconciles them, and Connection Details shows the exact queued action/error with a safe discard option."
 }
