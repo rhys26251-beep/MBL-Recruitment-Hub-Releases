@@ -1,7 +1,7 @@
 {
-  "version": "1.1.16",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.16.zip.b64",
+  "version": "1.1.17",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.17.zip.b64",
   "encoding": "base64",
-  "sha256": "8ecd20ebec82f95398ed41f7d1eca9735130746496252ff7ecd25c64a03d37e6",
-  "notes": "Changes the Amazon TEST reader to use the Associates onboarding list directly. Progress is only x/15: 14/15 is flagged as Send online training and 15/15 as Onboarding complete. It no longer crawls every associate profile or displays 18/20. Dropbox self-trigger loops remain suppressed. Existing recruitment workflow is untouched. This build is specifically for the live 14/15 training test."
+  "sha256": "1cb76e2ee7aa2acbfd39ea765bb4b3f41cd4913d36c52ef30d22170024dbf342",
+  "notes": "Emergency fix for v1.1.16: restores the Contracts Test and Onboarding Test sidebar pages. A duplicate JavaScript declaration in the previous build stopped the desktop helper script from loading. This build removes that duplicate and now validates desktop.js syntax before release. The v1.1.16 onboarding-list reader changes are retained."
 }
