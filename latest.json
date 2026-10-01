@@ -1,7 +1,7 @@
 {
-  "version": "1.1.12",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.12.zip.b64",
+  "version": "1.1.13",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.13.zip.b64",
   "encoding": "base64",
-  "sha256": "f6fd50d9f1967d4f12225e12d3082340d6a71c15a4d68afca32ada6c07951724",
-  "notes": "Adds two isolated TEST pages to the left sidebar: Contracts Test for Dropbox Sign and Onboarding Test for Amazon DHU2 onboarding. They are deliberately sandboxed from the working recruitment, contracts and MBL workflow so we can prove the readers first. Includes safe demo data, bridge-ready data hooks, unmatched-contract protection, and the training-needs-sending rule based on named Amazon task states. The existing Recruitment Hub workflow is unchanged."
+  "sha256": "77cdd4e97a630ddeb468156434c2c31f519e907a038f5c095e545b08850e03ee",
+  "notes": "First live read-only bridge test. Adds a localhost receiver to Recruitment Hub and bundles the MBL Recruitment Bridge extension for Amazon Logistics and Dropbox Sign pages you already have open. Live data still feeds TEST pages only and cannot alter candidates, MBL, Amazon or Dropbox. Contracts Test now defaults to the last 30 days with search, Pending/Signed filters, Newest/Oldest sorting and All history. Onboarding Test adds search, action filters and priority sorting. Ready for first live reader test."
 }
