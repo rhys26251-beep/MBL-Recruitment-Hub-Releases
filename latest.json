@@ -1,7 +1,7 @@
 {
-  "version": "1.1.7",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.7.zip.b64",
+  "version": "1.1.8",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.8.zip.b64",
   "encoding": "base64",
-  "sha256": "0d5c53decea7fff67f2dd6700e09c43c2ed0b7f1990a65ac3e9c76c038c2e20a",
-  "notes": "Fixes the Confirm Induction calendar when Recruitment Hub is snapped to half a screen beside Phone Link. The month now stays a proper 7-column calendar and resizes cleanly at narrow widths instead of stacking weekday labels and date cells. Designed specifically for your split-screen call workflow."
+  "sha256": "9ab123a3b4a72e417a8a44f642379a8a76fb7866f922f5a2e64519e8acb219ce",
+  "notes": "Previous applications are now clickable from Call Mode and Candidate Profile. Opening one shows the earlier application date, final/last status, induction date, notes, the official application timeline and the recorded reason/outcome for non-attendance where MBL has one. If no explicit reason exists, the Hub says so rather than guessing."
 }
