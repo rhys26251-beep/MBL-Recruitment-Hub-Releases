@@ -1,7 +1,7 @@
 {
-  "version": "1.1.17",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.17.zip.b64",
+  "version": "1.1.18",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.18.zip.b64",
   "encoding": "base64",
-  "sha256": "1cb76e2ee7aa2acbfd39ea765bb4b3f41cd4913d36c52ef30d22170024dbf342",
-  "notes": "Emergency fix for v1.1.16: restores the Contracts Test and Onboarding Test sidebar pages. A duplicate JavaScript declaration in the previous build stopped the desktop helper script from loading. This build removes that duplicate and now validates desktop.js syntax before release. The v1.1.16 onboarding-list reader changes are retained."
+  "sha256": "f09d35f9f905ed66077de72514c54029e8200854e3eed125f544d96740620956",
+  "notes": "Adds a read-only local Support View at http://127.0.0.1:53685 so Recruitment Hub live state can be inspected safely through Opera Browser Connector. It exposes only candidate names/statuses/MBL IDs and workflow metadata needed for diagnostics, binds to this PC only, and provides no write controls. Existing recruitment, Contracts Test, Onboarding Test and MBL workflow are unchanged. This build is for live MBL \u2194 Hub cross-checking."
 }
