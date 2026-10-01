@@ -1,7 +1,7 @@
 {
-  "version": "1.1.14",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.14.zip.b64",
+  "version": "1.1.15",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.15.zip.b64",
   "encoding": "base64",
-  "sha256": "72347a3e4af73ee4a035e88bb5f9275507c43a2fbb141f941806a9328a2d7e49",
-  "notes": "Fixes the first live bridge limitation: the reader now walks paginated Dropbox Sign and Amazon onboarding lists instead of only collecting rows already visible on screen. It remembers discovered pages, scans them in inactive browser tabs, and then checks discovered Amazon associate detail pages. Existing Recruitment Hub workflow remains untouched; live data still feeds TEST pages only. Contract Test keeps the 7/30/90-day and All history filters, search and sorting. Reload the unpacked MBL Recruitment Bridge extension once after updating so the new scanner code is active."
+  "sha256": "355b4e5ed6f53fefdf651526883c8b8acef313eb565d5c5537b0f1c1cc5931e3",
+  "notes": "Improves the live TEST readers without touching the working recruitment workflow. Stops the Dropbox reader from repeatedly reopening itself, reuses one inactive scanner tab per crawl, strengthens pagination detection, and makes the Amazon Associates list reader discover drivers directly from the onboarding list rather than waiting for profiles to be clicked. Onboarding progress now displays only the useful x/15 figure; the 18/20 detail count is hidden. The Send online training action is derived from 14/15 plus Onboarding Training still incomplete. This build specifically targets the page-loading behaviour found during your first live bridge test."
 }
