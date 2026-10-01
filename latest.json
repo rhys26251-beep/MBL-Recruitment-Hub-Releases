@@ -1,7 +1,7 @@
 {
-  "version": "1.1.9",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.9.zip.b64",
+  "version": "1.1.10",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.10.zip.b64",
   "encoding": "base64",
-  "sha256": "8f26ba81711fb0d2f3e5e4e0f0c17cbfb405a163a43c320a019cba6cba1451bb",
-  "notes": "Candidate Profile now has its own Previous Applications control, so historical applications are accessible directly from the candidate list profile instead of only Call Mode. It can force a fresh official MBL check and opens a full drill-down with previous status, induction, notes, timeline and any recorded reason/outcome such as licence points or non-attendance."
+  "sha256": "2ad1380239942f39c7ef6d93cb7b90a5e298ec301eb213387303456321fa3cf2",
+  "notes": "Fixes previous-application identity matching so only exact phone/email matches are shown. Removes unrelated candidates returned by broad MBL search, refreshes old cached matches automatically, and stops generic induction invitation text being mistaken for a failure reason. Relevant recruiter notes such as SP30, IN10, licence or DBS details are still surfaced when they genuinely belong to that candidate."
 }
