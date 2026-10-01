@@ -1,7 +1,7 @@
 {
-  "version": "1.1.15",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.15.zip.b64",
+  "version": "1.1.16",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.16.zip.b64",
   "encoding": "base64",
-  "sha256": "355b4e5ed6f53fefdf651526883c8b8acef313eb565d5c5537b0f1c1cc5931e3",
-  "notes": "Improves the live TEST readers without touching the working recruitment workflow. Stops the Dropbox reader from repeatedly reopening itself, reuses one inactive scanner tab per crawl, strengthens pagination detection, and makes the Amazon Associates list reader discover drivers directly from the onboarding list rather than waiting for profiles to be clicked. Onboarding progress now displays only the useful x/15 figure; the 18/20 detail count is hidden. The Send online training action is derived from 14/15 plus Onboarding Training still incomplete. This build specifically targets the page-loading behaviour found during your first live bridge test."
+  "sha256": "8ecd20ebec82f95398ed41f7d1eca9735130746496252ff7ecd25c64a03d37e6",
+  "notes": "Changes the Amazon TEST reader to use the Associates onboarding list directly. Progress is only x/15: 14/15 is flagged as Send online training and 15/15 as Onboarding complete. It no longer crawls every associate profile or displays 18/20. Dropbox self-trigger loops remain suppressed. Existing recruitment workflow is untouched. This build is specifically for the live 14/15 training test."
 }
