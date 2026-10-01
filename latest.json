@@ -1,7 +1,7 @@
 {
-  "version": "1.1.6",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.6.zip.b64",
+  "version": "1.1.7",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.7.zip.b64",
   "encoding": "base64",
-  "sha256": "4239945c24fcf665a14d3318c8dd2f6137b2e8eb6bb1c9e69fed53b8db6662c3",
-  "notes": "Adds a one-click Slack induction list copy button using the selected day's date, 10:45 working time and bullet-point attendee names. The Home screen also gains a small Local \u2192 MBL counter showing how many local candidates still appear to need adding to the official system after the latest MBL cross-check."
+  "sha256": "0d5c53decea7fff67f2dd6700e09c43c2ed0b7f1990a65ac3e9c76c038c2e20a",
+  "notes": "Fixes the Confirm Induction calendar when Recruitment Hub is snapped to half a screen beside Phone Link. The month now stays a proper 7-column calendar and resizes cleanly at narrow widths instead of stacking weekday labels and date cells. Designed specifically for your split-screen call workflow."
 }
