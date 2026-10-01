@@ -1,7 +1,7 @@
 {
-  "version": "1.1.10",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.10.zip.b64",
+  "version": "1.1.11",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.11.zip.b64",
   "encoding": "base64",
-  "sha256": "2ad1380239942f39c7ef6d93cb7b90a5e298ec301eb213387303456321fa3cf2",
-  "notes": "Fixes previous-application identity matching so only exact phone/email matches are shown. Removes unrelated candidates returned by broad MBL search, refreshes old cached matches automatically, and stops generic induction invitation text being mistaken for a failure reason. Relevant recruiter notes such as SP30, IN10, licence or DBS details are still surfaced when they genuinely belong to that candidate."
+  "sha256": "e51ccc4edcc7478d31f8ca03cd58372f00cd506f6aa9e465843f301d119c28f6",
+  "notes": "Same-day induction corrections: today remains selectable for the entire day, even after the scheduled induction time. This lets walk-ins or candidates who actually attended today be moved to today and then marked Attended and progressed to contract. The Add Candidate calendar follows the same rule. Past dates and Sundays remain disabled."
 }
