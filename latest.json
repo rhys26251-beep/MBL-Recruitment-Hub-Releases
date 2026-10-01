@@ -1,7 +1,7 @@
 {
-  "version": "1.1.20",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.20.zip.b64",
+  "version": "1.1.21",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.21.zip.b64",
   "encoding": "base64",
-  "sha256": "4bab2ccf01656c22feaf1b073cdc739393a3babf29ccc02f61b2786cecb1c690",
-  "notes": "Fixes confirmation sync correctly. If you confirm/book a candidate in Recruitment Hub, the Hub now always finishes by writing Confirmed to the official MBL call board and verifies that it stuck. Existing genuine local confirmations with the same official induction date are repaired automatically instead of being demoted to To Call. Failed official writes remain pending for safe retry. This build replaces the overly aggressive 1.1.19 reconciliation rule."
+  "sha256": "c6516f8625ed83ab75b994595507d71c8059069fcf4812be89bdbd21926f04f3",
+  "notes": "Fixes the confirmation repair so matching induction date/time is recognised correctly. When a candidate is already booked for the exact same induction, repairing a missing Confirmed status now only sets the official call-board stage to Confirmed; it does not reschedule, resend the induction invite, or add extra call attempts. Genuine date/time changes still reschedule normally. Includes an automated time-parser check before release."
 }
