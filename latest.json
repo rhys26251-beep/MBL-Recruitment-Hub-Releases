@@ -1,7 +1,7 @@
 {
-  "version": "1.1.18",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.18.zip.b64",
+  "version": "1.1.19",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.19.zip.b64",
   "encoding": "base64",
-  "sha256": "f09d35f9f905ed66077de72514c54029e8200854e3eed125f544d96740620956",
-  "notes": "Adds a read-only local Support View at http://127.0.0.1:53685 so Recruitment Hub live state can be inspected safely through Opera Browser Connector. It exposes only candidate names/statuses/MBL IDs and workflow metadata needed for diagnostics, binds to this PC only, and provides no write controls. Existing recruitment, Contracts Test, Onboarding Test and MBL workflow are unchanged. This build is for live MBL \u2194 Hub cross-checking."
+  "sha256": "455eec95acd1897d5b72f24869ea6c9f524606af0f213316fdfab793d007350f",
+  "notes": "Fixes MBL \u2194 Hub call-list drift. A booked candidate with no official call stage is now always treated as To Call regardless of call-attempt count, so names cannot disappear locally just because a call was logged. Pending/failed local writes are still preserved until they sync. Existing recruitment data and browser support view are unchanged. This build specifically repairs the Mike Redfern / Nick Thacker type mismatch."
 }
