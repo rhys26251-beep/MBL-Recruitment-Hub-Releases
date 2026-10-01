@@ -1,7 +1,7 @@
 {
-  "version": "1.1.13",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.13.zip.b64",
+  "version": "1.1.14",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.14.zip.b64",
   "encoding": "base64",
-  "sha256": "77cdd4e97a630ddeb468156434c2c31f519e907a038f5c095e545b08850e03ee",
-  "notes": "First live read-only bridge test. Adds a localhost receiver to Recruitment Hub and bundles the MBL Recruitment Bridge extension for Amazon Logistics and Dropbox Sign pages you already have open. Live data still feeds TEST pages only and cannot alter candidates, MBL, Amazon or Dropbox. Contracts Test now defaults to the last 30 days with search, Pending/Signed filters, Newest/Oldest sorting and All history. Onboarding Test adds search, action filters and priority sorting. Ready for first live reader test."
+  "sha256": "72347a3e4af73ee4a035e88bb5f9275507c43a2fbb141f941806a9328a2d7e49",
+  "notes": "Fixes the first live bridge limitation: the reader now walks paginated Dropbox Sign and Amazon onboarding lists instead of only collecting rows already visible on screen. It remembers discovered pages, scans them in inactive browser tabs, and then checks discovered Amazon associate detail pages. Existing Recruitment Hub workflow remains untouched; live data still feeds TEST pages only. Contract Test keeps the 7/30/90-day and All history filters, search and sorting. Reload the unpacked MBL Recruitment Bridge extension once after updating so the new scanner code is active."
 }
