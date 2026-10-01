@@ -1,7 +1,7 @@
 {
-  "version": "1.1.11",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.11.zip.b64",
+  "version": "1.1.12",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.12.zip.b64",
   "encoding": "base64",
-  "sha256": "e51ccc4edcc7478d31f8ca03cd58372f00cd506f6aa9e465843f301d119c28f6",
-  "notes": "Same-day induction corrections: today remains selectable for the entire day, even after the scheduled induction time. This lets walk-ins or candidates who actually attended today be moved to today and then marked Attended and progressed to contract. The Add Candidate calendar follows the same rule. Past dates and Sundays remain disabled."
+  "sha256": "f6fd50d9f1967d4f12225e12d3082340d6a71c15a4d68afca32ada6c07951724",
+  "notes": "Adds two isolated TEST pages to the left sidebar: Contracts Test for Dropbox Sign and Onboarding Test for Amazon DHU2 onboarding. They are deliberately sandboxed from the working recruitment, contracts and MBL workflow so we can prove the readers first. Includes safe demo data, bridge-ready data hooks, unmatched-contract protection, and the training-needs-sending rule based on named Amazon task states. The existing Recruitment Hub workflow is unchanged."
 }
