@@ -1,7 +1,7 @@
 {
-  "version": "1.1.5",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.5.zip.b64",
+  "version": "1.1.6",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.6.zip.b64",
   "encoding": "base64",
-  "sha256": "d1d2fa7787668c43a2fc79776421678cd5be9ba571e974d6b870c389130b5d93",
-  "notes": "Nightly local-candidate reminder now cross-checks the official MBL list first. Exact phone/email matches are automatically linked to the official candidate, so the 10 PM prompt only shows local candidates that still appear to be genuinely missing."
+  "sha256": "4239945c24fcf665a14d3318c8dd2f6137b2e8eb6bb1c9e69fed53b8db6662c3",
+  "notes": "Adds a one-click Slack induction list copy button using the selected day's date, 10:45 working time and bullet-point attendee names. The Home screen also gains a small Local \u2192 MBL counter showing how many local candidates still appear to need adding to the official system after the latest MBL cross-check."
 }
