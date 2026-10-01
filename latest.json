@@ -1,7 +1,7 @@
 {
-  "version": "1.1.8",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.8.zip.b64",
+  "version": "1.1.9",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.9.zip.b64",
   "encoding": "base64",
-  "sha256": "9ab123a3b4a72e417a8a44f642379a8a76fb7866f922f5a2e64519e8acb219ce",
-  "notes": "Previous applications are now clickable from Call Mode and Candidate Profile. Opening one shows the earlier application date, final/last status, induction date, notes, the official application timeline and the recorded reason/outcome for non-attendance where MBL has one. If no explicit reason exists, the Hub says so rather than guessing."
+  "sha256": "8f26ba81711fb0d2f3e5e4e0f0c17cbfb405a163a43c320a019cba6cba1451bb",
+  "notes": "Candidate Profile now has its own Previous Applications control, so historical applications are accessible directly from the candidate list profile instead of only Call Mode. It can force a fresh official MBL check and opens a full drill-down with previous status, induction, notes, timeline and any recorded reason/outcome such as licence points or non-attendance."
 }
