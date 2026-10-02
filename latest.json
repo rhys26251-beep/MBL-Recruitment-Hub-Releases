@@ -1,7 +1,7 @@
 {
-  "version": "1.1.21",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.21.zip.b64",
+  "version": "1.1.22",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.22.zip.b64",
   "encoding": "base64",
-  "sha256": "c6516f8625ed83ab75b994595507d71c8059069fcf4812be89bdbd21926f04f3",
-  "notes": "Fixes the confirmation repair so matching induction date/time is recognised correctly. When a candidate is already booked for the exact same induction, repairing a missing Confirmed status now only sets the official call-board stage to Confirmed; it does not reschedule, resend the induction invite, or add extra call attempts. Genuine date/time changes still reschedule normally. Includes an automated time-parser check before release."
+  "sha256": "ec3f15aa938f4958a77df9e9c29eba746b096a65f8e87e54b69574dbada49e58",
+  "notes": "Speeds up Call Mode messaging. A new COPY INVITE + OPEN MESSAGE button now sits directly under CALL, so there is no need to scroll down to Messages. Copy Induction Invite now copies the candidate-specific invite and immediately opens that candidate's SMS thread using the same Windows/Phone Link flow already used elsewhere in Recruitment Hub. Uses the existing Phone Link messaging route already proven by the reminder workflow."
 }
