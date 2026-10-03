@@ -1,7 +1,7 @@
 {
-  "version": "1.1.24",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.24.zip.b64",
+  "version": "1.1.25",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.25.zip.b64",
   "encoding": "base64",
-  "sha256": "5c409d84b54b615582170c45a0a954ebf8714329769f9581a34fc2a9cf99abea",
-  "notes": "Improves the message shown immediately after confirming a candidate. Copy confirmation now uses the full MBL induction message with the candidate name, the exact date you selected, 10:45 time, depot address, arrival contacts, required documents and age/licence requirements. Clicking Copy confirmation also opens that candidate's SMS thread in Phone Link automatically. The selected induction date is shown clearly with day, month and year."
+  "sha256": "8682e4304f4d3776685bbf5cd57058f469cb6c91e88b26e17039c1ea31b206c7",
+  "notes": "Replaces the old Contracts Test and Onboarding Test sidebar entries with the real workflow. Contracts now has direct Pending and Signed Dropbox links plus a highlighted CHECK action per candidate. Marking a contract Signed automatically adds the candidate to the new Onboarding page. Onboarding has direct Amazon progress checks, 12-hour check-due tracking, quick 14/15 training and 15/15 complete actions, and a clickable Home widget showing active, due and training-needed candidates. Existing signed candidates appear in Onboarding automatically as well."
 }
