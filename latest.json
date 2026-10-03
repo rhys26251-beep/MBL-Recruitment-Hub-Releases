@@ -1,7 +1,7 @@
 {
-  "version": "1.1.23",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.23.zip.b64",
+  "version": "1.1.24",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.24.zip.b64",
   "encoding": "base64",
-  "sha256": "486fda6951de04e94f563b5b17db48c060009011c606f39417ea2a79c8e0c043",
-  "notes": "Fixes Attended \u2192 Not Proceeding sync. Because the candidate already attended, Recruitment Hub now records the official MBL outcome as Not Hired instead of trying to move them backwards to Not Coming/Declined. Failed retries no longer duplicate the explanatory note."
+  "sha256": "5c409d84b54b615582170c45a0a954ebf8714329769f9581a34fc2a9cf99abea",
+  "notes": "Improves the message shown immediately after confirming a candidate. Copy confirmation now uses the full MBL induction message with the candidate name, the exact date you selected, 10:45 time, depot address, arrival contacts, required documents and age/licence requirements. Clicking Copy confirmation also opens that candidate's SMS thread in Phone Link automatically. The selected induction date is shown clearly with day, month and year."
 }
