@@ -1,7 +1,7 @@
 {
-  "version": "1.1.25",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.25.zip.b64",
+  "version": "1.1.26",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.26.zip.b64",
   "encoding": "base64",
-  "sha256": "8682e4304f4d3776685bbf5cd57058f469cb6c91e88b26e17039c1ea31b206c7",
-  "notes": "Replaces the old Contracts Test and Onboarding Test sidebar entries with the real workflow. Contracts now has direct Pending and Signed Dropbox links plus a highlighted CHECK action per candidate. Marking a contract Signed automatically adds the candidate to the new Onboarding page. Onboarding has direct Amazon progress checks, 12-hour check-due tracking, quick 14/15 training and 15/15 complete actions, and a clickable Home widget showing active, due and training-needed candidates. Existing signed candidates appear in Onboarding automatically as well."
+  "sha256": "869a2ccae6d826c271c24d149a41b87742b7e3656c2c06ab2032390c32b80a8a",
+  "notes": "Cleans up the Onboarding page with responsive candidate cards so it stays readable when Recruitment Hub is used at half-screen size. Contract checks now use candidate name as the default Dropbox lookup because some contract candidates have no email saved. Contracts and Onboarding both include small Copy name / Copy email controls, with a clear No email state when needed. Also fixes blank-email contract rows so CHECK always opens the correct candidate lookup. The main CHECK button now always copies the candidate name first."
 }
