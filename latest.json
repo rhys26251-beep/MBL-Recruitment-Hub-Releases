@@ -1,7 +1,7 @@
 {
-  "version": "1.1.26",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.26.zip.b64",
+  "version": "1.1.27",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.27.zip.b64",
   "encoding": "base64",
-  "sha256": "869a2ccae6d826c271c24d149a41b87742b7e3656c2c06ab2032390c32b80a8a",
-  "notes": "Cleans up the Onboarding page with responsive candidate cards so it stays readable when Recruitment Hub is used at half-screen size. Contract checks now use candidate name as the default Dropbox lookup because some contract candidates have no email saved. Contracts and Onboarding both include small Copy name / Copy email controls, with a clear No email state when needed. Also fixes blank-email contract rows so CHECK always opens the correct candidate lookup. The main CHECK button now always copies the candidate name first."
+  "sha256": "9cfceac00ba5d0c949350cdd42594dc463b386aa0a03b6d00b1aba403342b4d8",
+  "notes": "Fixes the Onboarding cleanup not actually taking effect in v1.1.26. The responsive onboarding cards now replace the old wide table correctly, and Amazon status is shown as clear readable text instead of the thin blue pill/rectangle. The Copy name / Copy email contract and onboarding controls from v1.1.26 now run in the live workflow as intended. Amazon status text is now deliberately shown without the small pill styling so it stays readable at every UI scale."
 }
