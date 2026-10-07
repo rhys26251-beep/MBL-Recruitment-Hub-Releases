@@ -1,7 +1,7 @@
 {
-  "version": "1.1.28",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.28.zip.b64",
+  "version": "1.1.29",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.29.zip.b64",
   "encoding": "base64",
-  "sha256": "3c81eb8f5408259dba3c1acb051b52852220aa0b4b8b34fcfba5011ebfdfdb2b",
-  "notes": "Adds a Not Attending / Cancel Induction button to confirmed candidate profiles. It removes the candidate from the local induction date, records the cancellation in history, and syncs official MBL to Not Coming / Declined. The action asks for confirmation first, and the candidate is shown as Not Attending. They can still be booked onto a new induction later if they change their mind."
+  "sha256": "5e12a4052d369be1354178517badf8715134be8ee359307f46fefd7e129f6860",
+  "notes": "Adds a Text Reminder action to contract candidates. It copies a friendly personalised contract follow-up using the candidate first name, then opens that candidate SMS thread in Windows/Phone Link. Candidates without a saved phone number show a clear No phone state. The reminder asks them to confirm once signed, tells them the next stage is onboarding, and lets them know they can simply say if they no longer wish to proceed. Clicking Text Reminder also records the follow-up in the candidate history."
 }
