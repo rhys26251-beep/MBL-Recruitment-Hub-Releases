@@ -1,7 +1,7 @@
 {
-  "version": "1.1.29",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.29.zip.b64",
+  "version": "1.1.30",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.30.zip.b64",
   "encoding": "base64",
-  "sha256": "5e12a4052d369be1354178517badf8715134be8ee359307f46fefd7e129f6860",
-  "notes": "Adds a Text Reminder action to contract candidates. It copies a friendly personalised contract follow-up using the candidate first name, then opens that candidate SMS thread in Windows/Phone Link. Candidates without a saved phone number show a clear No phone state. The reminder asks them to confirm once signed, tells them the next stage is onboarding, and lets them know they can simply say if they no longer wish to proceed. Clicking Text Reminder also records the follow-up in the candidate history."
+  "sha256": "084dd9c20f0dccdc0ed1c69f0d5d392fa89796b6eb75efe1e2d4dc453238148b",
+  "notes": "Fixes the contract Text Reminder so personalised messages use only the candidate's first name instead of their full name. Also fixes the phone-number cleanup used when opening the candidate SMS thread."
 }
