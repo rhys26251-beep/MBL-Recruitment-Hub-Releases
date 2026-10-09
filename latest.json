@@ -1,7 +1,7 @@
 {
-  "version": "1.1.30",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.30.zip.b64",
+  "version": "1.1.31",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.31.zip.b64",
   "encoding": "base64",
-  "sha256": "084dd9c20f0dccdc0ed1c69f0d5d392fa89796b6eb75efe1e2d4dc453238148b",
-  "notes": "Fixes the contract Text Reminder so personalised messages use only the candidate's first name instead of their full name. Also fixes the phone-number cleanup used when opening the candidate SMS thread."
+  "sha256": "68fbe914e90bf306926a506c21a284ff901d0fc2941858870da4ad89b7c15405",
+  "notes": "First-time phone calls are prioritised in Call Mode and displayed above previously called candidates. Reattempts stay in a separate optional queue, with a local-only Skip / Restore control. No official MBL records or automations are altered."
 }
