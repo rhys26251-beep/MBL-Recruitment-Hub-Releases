@@ -1,7 +1,7 @@
 {
-  "version": "1.1.31",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.31.zip.b64",
+  "version": "1.1.32",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.32.zip.b64",
   "encoding": "base64",
-  "sha256": "68fbe914e90bf306926a506c21a284ff901d0fc2941858870da4ad89b7c15405",
-  "notes": "First-time phone calls are prioritised in Call Mode and displayed above previously called candidates. Reattempts stay in a separate optional queue, with a local-only Skip / Restore control. No official MBL records or automations are altered."
+  "sha256": "c1c93ee72e4f8f40cdbe7cc7a9625f85dc7aec6488790db09ebcb5b86cdf0ebb",
+  "notes": "Record outcomes for candidates who attend an existing MBL induction despite No Answer or an unconfirmed booking. Adds attendance shortcuts in Confirm Induction, profiles and call list; provisional candidates appear separately in today's attendance check. Updates official MBL with Attended or Not Hired and preserves original booking; no automatic rebooking."
 }
