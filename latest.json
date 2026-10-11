@@ -1,7 +1,7 @@
 {
-  "version": "1.1.32",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.32.zip.b64",
+  "version": "1.1.33",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.33.zip.b64",
   "encoding": "base64",
-  "sha256": "c1c93ee72e4f8f40cdbe7cc7a9625f85dc7aec6488790db09ebcb5b86cdf0ebb",
-  "notes": "Record outcomes for candidates who attend an existing MBL induction despite No Answer or an unconfirmed booking. Adds attendance shortcuts in Confirm Induction, profiles and call list; provisional candidates appear separately in today's attendance check. Updates official MBL with Attended or Not Hired and preserves original booking; no automatic rebooking."
+  "sha256": "dea2625a8dee8825e4ce161f34c9a8f300035a7d74fb9aafcd3051b876ba9feb",
+  "notes": "Recognises official Hired candidates automatically (including Mirnasratullah Mirzad). Adds a reviewed post-induction licence failure resolution for rejected Doesn't Meet Requirements writes: on your confirmation, official MBL is set to Not Hired with a licence eligibility note, while the Hub keeps the licence failure reason. No official records change during installation."
 }
