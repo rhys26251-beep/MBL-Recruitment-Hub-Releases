@@ -1,7 +1,7 @@
 {
-  "version": "1.1.33",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.33.zip.b64",
+  "version": "1.1.34",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.34.zip.b64",
   "encoding": "base64",
-  "sha256": "dea2625a8dee8825e4ce161f34c9a8f300035a7d74fb9aafcd3051b876ba9feb",
-  "notes": "Recognises official Hired candidates automatically (including Mirnasratullah Mirzad). Adds a reviewed post-induction licence failure resolution for rejected Doesn't Meet Requirements writes: on your confirmation, official MBL is set to Not Hired with a licence eligibility note, while the Hub keeps the licence failure reason. No official records change during installation."
+  "sha256": "99c7aef8e500ded67a9f92ea527893d5f0b1d98f4d91aa25eccd343fa4c7af04",
+  "notes": "PC Recruitment Hub: open the previous 14 induction days or move the sidebar calendar back by week; run YES/NO attendance checks on past sessions. Correct a candidate's historic induction date (including past Sundays) without accidentally creating a new MBL booking. Recorded attendance outcomes still sync as MBL status changes, with sync issues shown if confirmation fails. Mobile versions are unchanged. No candidate records change during installation."
 }
