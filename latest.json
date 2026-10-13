@@ -1,7 +1,7 @@
 {
-  "version": "1.1.35",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.35.zip.b64",
+  "version": "1.1.36",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.36.zip.b64",
   "encoding": "base64",
-  "sha256": "b63bd7199142272961add23024cc90f9f74839e7b1b6f499b4b7f3fe3c0c968d",
-  "notes": "Fix PC induction calendar showing inflated counts (for example 79 or 36) caused by including provisional MBL applicants who were not confirmed. Now the calendar and historical attendance list count confirmed candidates and genuine recorded outcomes only, without losing access to past weeks or changing any candidate data. Mobile unchanged."
+  "sha256": "0525e23350e316c99af58e2e958067338f6dad992e3a51ecb90482c837923d2f",
+  "notes": "PC Recruitment Hub: historical attendance YES now opens the normal Proceeding Yes/No prompt, YES proceeds to Contracts, NO records Not Proceeding. Previously marked Attended candidates can resume the decision without duplicate attendance writes. Calendar red badges count only attendance still unchecked; past-date views separately show pending decisions and recorded outcomes. Failed superseded attendance writes are retired when correcting an outcome. Existing contracts and the mobile version stay unchanged. No candidate records are altered merely by installing."
 }
