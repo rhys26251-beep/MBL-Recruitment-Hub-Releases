@@ -1,7 +1,7 @@
 {
-  "version": "1.1.38",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.38.zip.b64",
+  "version": "1.1.39",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.39.zip.b64",
   "encoding": "base64",
-  "sha256": "64ff1cbaeebe6e462b4ceea94f7f6e616b708e04a06e0b872fb331c8c52e9543",
-  "notes": "PC Recruitment Hub: streamlined onboarding \u2014 removed the complicated Onboarding page from navigation and its large Home dashboard card. Home now has two compact shortcuts: Training Pack (enter name, AmiGO username/password; copy the full Android/iPhone message without tracking 14/15 in Hub) and Amazon Onboarding (open the existing Associates page for manual checks). Existing contracts, candidate data and PC day-before induction reminders remain unchanged. Training messages are copied manually (not sent or marked completed); login details are not saved by the standalone shortcut. Mobile version unchanged."
+  "sha256": "25c3bb28d279908104510223e125f7b3393a439070ccfbd8cbce4bea5a97334e",
+  "notes": "PC Recruitment Hub: Copy & Text Tomorrow Reminder now copies each personalised message then opens that candidate's SMS conversation through the existing Windows Phone Link/text handler. Sending still requires pressing Send in Phone Link. Removed the repeated MBL 10:30 vs Hub 10:45 confirmation popup; the mismatch stays visible in the session header/information strip. Removed 'Please reply to confirm that you will be attending tomorrow' from the text. The on-the-day reminder, Home training pack and Amazon onboarding shortcuts, and mobile version are unchanged."
 }
