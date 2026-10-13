@@ -1,7 +1,7 @@
 {
-  "version": "1.1.34",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.34.zip.b64",
+  "version": "1.1.35",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.35.zip.b64",
   "encoding": "base64",
-  "sha256": "99c7aef8e500ded67a9f92ea527893d5f0b1d98f4d91aa25eccd343fa4c7af04",
-  "notes": "PC Recruitment Hub: open the previous 14 induction days or move the sidebar calendar back by week; run YES/NO attendance checks on past sessions. Correct a candidate's historic induction date (including past Sundays) without accidentally creating a new MBL booking. Recorded attendance outcomes still sync as MBL status changes, with sync issues shown if confirmation fails. Mobile versions are unchanged. No candidate records change during installation."
+  "sha256": "b63bd7199142272961add23024cc90f9f74839e7b1b6f499b4b7f3fe3c0c968d",
+  "notes": "Fix PC induction calendar showing inflated counts (for example 79 or 36) caused by including provisional MBL applicants who were not confirmed. Now the calendar and historical attendance list count confirmed candidates and genuine recorded outcomes only, without losing access to past weeks or changing any candidate data. Mobile unchanged."
 }
