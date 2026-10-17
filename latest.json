@@ -1,7 +1,7 @@
 {
-  "version": "1.1.45",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.45.zip.b64",
+  "version": "1.1.46",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.46.zip.b64",
   "encoding": "base64",
-  "sha256": "84fb23b75719a2ceb18f36367ce8e2aa22151995facf44e5ce8ce3a90195f705",
-  "notes": "Windows Recruitment Hub v1.1.45 \u2014 Already Hired now asks two clear confirmations with a final ARE YOU SURE? prompt. Once confirmed, it updates official MBL to Hired and verifies the official result before moving the driver to Finished. The checklist is skipped for already-working drivers without fabricating completed steps. Offline, unlinked, conflict or unverified updates are kept out of Finished pending review; earlier local-only Already Hired records require official confirmation. Fixed dialog line breaks. Archive/Restore remains Hub-only; checklists remain local to each PC/laptop."
+  "sha256": "fbb64cb2e91a20dcacb008330f6a74239dbfb370543c47aa847f8b0aa7000ced",
+  "notes": "Windows Recruitment Hub v1.1.46 \u2014 Attendance sync safeguard for historical attendees whose official booking was later moved to a future date (such as Abdul Nasser Bayorbor, who attended 12 Oct but is still officially booked for 19 Oct). Rejected Confirmed \u2192 Attended transitions and future-booking conflicts now enter a Needs Review state instead of retrying endlessly. The sync panel displays locally recorded attendance alongside the official booked date, offers Review Candidate, and does not offer pointless retries until the future-booking mismatch is corrected. Historical attendance and onboarding progress are retained locally. This update does NOT silently change the official MBL booking, cancel automatic reminders, or falsely claim attendance has synced. Existing v1.1.45 Hired verification flow is preserved. After the update, review blocked attendance writes under Settings \u2192 Official MBL Connection; the existing candidate's historical attendance remains visible."
 }
