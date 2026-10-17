@@ -1,7 +1,7 @@
 {
-  "version": "1.1.40",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.40.zip.b64",
+  "version": "1.1.41",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.41.zip.b64",
   "encoding": "base64",
-  "sha256": "42f699d5c4527c378668c93b5f333d76d934b843d5a693719c12565ea591ee91",
-  "notes": "PC Recruitment Hub: Training Pack is now a true one-click copy from the Home shortcut. Copies a short 'checks have come through' introduction and both Android/iPhone AmiGO download links, without requesting or including driver name, username or password. Send login details separately in their own SMS/chat message. The candidate training action uses the same clean copy. No training-pack login form or credential storage. This is a PC-only update. Copying never sends a message or marks training as sent. Amazon Onboarding shortcut, day-before reminders, candidate data, and mobile app are unchanged."
+  "sha256": "2bc91c574a7f6babb8bea7d7f131dc27b4ea59ada575bfb79309aad61a6e72c5",
+  "notes": "Windows Recruitment Hub v1.1.41 (main PC and laptop): When a Call Mode queue is completed, a new No Answer email screen lists only No Answer candidates from that calling session and provides separate one-click copies for all valid email addresses (for BCC), a generic subject and a generic follow-up email. The latest session can be reopened from the Call List. No email is sent automatically. For candidates manually added to the Hub, a new Copy to Official MBL panel supplies individual first name, surname, phone, email, HULL depot, Added by hand source, Not given driving experience and Not given licence copy buttons, plus Copy all and Open official MBL. The panel opens after adding a local candidate, from their profile or the existing local-leads reminder. Copying does not create an official record, and existing automatic record linking, official call outcomes, attendance, contract tracking and Android versions are unchanged."
 }
