@@ -1,7 +1,7 @@
 {
-  "version": "1.1.43",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.43.zip.b64",
+  "version": "1.1.44",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.44.zip.b64",
   "encoding": "base64",
-  "sha256": "a838f63c4cff34b79664d1df25421964819dc64ee94398d318383a9cd1d803c9",
-  "notes": "Windows Recruitment Hub v1.1.43 \u2014 Pipeline tidy-up. Each active candidate has Remove from Pipeline with an optional reason (No longer interested, Unresponsive, Failed checks, Other). Removed candidates move to a dedicated Removed filter without losing personal details, documents, completed checklist steps or candidate history; Restore resumes exactly where they left off. Added Already Hired shortcut for drivers who are already working, moving them directly to Finished without manually ticking old onboarding steps; includes Undo Already Hired. Neither local shortcut changes official MBL or sends a hiring decision. Explicit final Hired/Not Hired actions continue using the verified MBL sync process. Updates are Windows PC/laptop only and local per device, consistent with existing checklist storage. All other workflows remain unchanged."
+  "sha256": "de1ec83506cfa47fba46d647696302d0864a6d0e739c40675d72b26d3cbd753f",
+  "notes": "Windows Recruitment Hub v1.1.44 \u2014 Already Hired now asks two separate confirmations, including an ARE YOU SURE? warning, before changing the official MBL call-list status to Hired. It bypasses unnecessary past checklist steps but uses the existing conflict-safe MBL update queue and requires official verified Hired before moving to Finished. Failed, unlinked or offline updates are not silently shown as Hired, and pending changes can be reviewed in Settings. Candidates previously marked Already Hired locally in v1.1.43 are shown as needing official confirmation. Remove and Restore remain Hub-only; PC/laptop checklists continue to be saved per device."
 }
