@@ -1,7 +1,7 @@
 {
-  "version": "1.1.44",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.44.zip.b64",
+  "version": "1.1.45",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.45.zip.b64",
   "encoding": "base64",
-  "sha256": "de1ec83506cfa47fba46d647696302d0864a6d0e739c40675d72b26d3cbd753f",
-  "notes": "Windows Recruitment Hub v1.1.44 \u2014 Already Hired now asks two separate confirmations, including an ARE YOU SURE? warning, before changing the official MBL call-list status to Hired. It bypasses unnecessary past checklist steps but uses the existing conflict-safe MBL update queue and requires official verified Hired before moving to Finished. Failed, unlinked or offline updates are not silently shown as Hired, and pending changes can be reviewed in Settings. Candidates previously marked Already Hired locally in v1.1.43 are shown as needing official confirmation. Remove and Restore remain Hub-only; PC/laptop checklists continue to be saved per device."
+  "sha256": "84fb23b75719a2ceb18f36367ce8e2aa22151995facf44e5ce8ce3a90195f705",
+  "notes": "Windows Recruitment Hub v1.1.45 \u2014 Already Hired now asks two clear confirmations with a final ARE YOU SURE? prompt. Once confirmed, it updates official MBL to Hired and verifies the official result before moving the driver to Finished. The checklist is skipped for already-working drivers without fabricating completed steps. Offline, unlinked, conflict or unverified updates are kept out of Finished pending review; earlier local-only Already Hired records require official confirmation. Fixed dialog line breaks. Archive/Restore remains Hub-only; checklists remain local to each PC/laptop."
 }
