@@ -1,7 +1,7 @@
 {
-  "version": "1.1.47",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.47.zip.b64",
+  "version": "1.1.48",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.48.zip.b64",
   "encoding": "base64",
-  "sha256": "8bdea93a5650062117597bde36c0dbb8de53649561428520dcaa1cdcf68c8f2d",
-  "notes": "Windows Recruitment Hub v1.1.47 \u2014 Pipeline shows real progress as checked steps out of 11 (for example 4/11) instead of percentages. Progress bars now match actually completed checklist items, even when someone was marked Hired via the verified shortcut without checking old steps. The list initially sorts by most completed steps first, with alphabetical ties; it stays in the same on-screen order while you tick boxes so candidates do not jump around. A new Re-sort by steps button refreshes highest-to-lowest ranking only when you are ready. Switching pipeline filters or re-entering the pipeline also recalculates the order. The current candidate remains visible when changing between Action Needed and Waiting while expanded. Recruitment sync, hiring confirmation and archive flows remain unchanged; local checklist progress is preserved. Includes regression checks for sorting 1/11, 3/11 and 4/11 without unexpected row movement."
+  "sha256": "7b6a6033e62f0b9084e4062ec29b1b69461d80e72497f810ef6bf4d8f4f81675",
+  "notes": "Windows Recruitment Hub v1.1.48 \u2014 The Pipeline shows a short 110px green progress indicator beside a readable Current stage label on every collapsed candidate card. Instead of scanning large progress bars, quickly see Contract (send/check signature), Cortex onboarding, online training (send/wait/verify), ridealong, van allocation, first shift, or final MBL hiring confirmation. Stage labels update automatically from the actual next incomplete checklist step and waiting/action state, while 1/11\u201311/11 stays visible at the right. Candidate positions remain frozen while ticking steps and can be reordered with the existing Re-sort button. The verified official Hired, archive, and local checklist workflows are unchanged."
 }
