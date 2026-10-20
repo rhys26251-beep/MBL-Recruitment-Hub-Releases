@@ -1,7 +1,7 @@
 {
-  "version": "1.1.51",
-  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.51.zip.b64",
+  "version": "1.1.52",
+  "packageUrl": "https://raw.githubusercontent.com/rhys26251-beep/MBL-Recruitment-Hub-Releases/main/packages/MBL_Recruitment_Hub_Update_v1.1.52.zip.b64",
   "encoding": "base64",
-  "sha256": "5d90d0e5efc347525e9673acffb66fc40093c6f2c0191d4d813b5a6360832237",
-  "notes": "Windows Recruitment Hub v1.1.51 \u2014 Pipeline usability trial: restored the Midnight Dark black/red appearance; replaced the mixed candidate view with one-line horizontally scrollable tabs for all 11 recruitment steps, Decision, Finished and Removed, each showing live candidate counts; placed compact Active, Need attention, Waiting and Finished analytics to the left of the candidate list in every view; shortened candidate cards while preserving readable names, progress and the existing per-step and overall stopwatches; added independent Copy name and Open Dropbox buttons directly on the contract signature-check rows and inside expanded actions. Selected stage is retained when returning to the Pipeline. Existing candidate records, checklists, timers and official MBL final hiring sync are unchanged."
+  "sha256": "9515ff1153d8245b3c261d6863c808f32063d4db51bf10dff6fdacfbe1d5cd1d",
+  "notes": "Windows Recruitment Hub v1.1.52 \u2014 Restores the original Call List, all Candidates database and Follow-ups navigation alongside the newer Pipeline and Calendar. The candidate database once again exposes every saved candidate, including those in non-pipeline categories, with status, search, profiles and full history. Call Mode once again shows Notes, previous applications and History openly in the right panel; Recent Calls remain immediately visible on the left instead of being hidden inside a collapsed disclosure. Added one-click Call List / All Candidates buttons in Call Mode and a full-history shortcut to the profile, plus an All Candidates shortcut on Home. No candidate records, recorded attendance, pending official MBL changes, pipeline steps, recruitment timers or official sync actions are deleted or modified. Regression tests cover the navigation, active call-mode history and existing pipeline workflows."
 }
